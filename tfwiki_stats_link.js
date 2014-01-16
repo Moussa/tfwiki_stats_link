@@ -1,3 +1,5 @@
+// Adds a link to the stats page on stats.wiki.tf to the page title header
+
 function AddWikiFiLink() {
     if (wgCanonicalNamespace == 'Special') {
         return;
